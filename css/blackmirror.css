@@ -1,0 +1,34 @@
+/**********************************************/
+/*  Style sheet for Black Mirror web site     */
+/*  author: Rafael Maldonado                  */
+/*  version:: 1.0                             */
+/*  comments : class project 2023-24          */
+/**********************************************/
+
+
+/* cuando quiero usar una tipografía y asegurarme de que se verá correctamente ,  suministro también con la página el archivo de la fuente que será .ttf o .otf */
+/* ahora , enlazo el archivo descargado */
+
+/* 1- ahora , enlazo el archivo descargado */
+/* 2- utilizar el noombre de la foont-family donde quiera usarlo*/
+
+@font-face {    /* esto no es un selector , es un enlace */
+    font-family: blackmirror;
+    src: url(../font/FontsFree-Net-FontsFree-Net-Proxima-Nova-1.ttf);
+}
+
+
+@font-face {
+    font-family: textonormal;
+    src: url(../font/open-sans/OpenSans-Regular.ttf);
+}
+
+body {margin: 0;padding: 0;         /* para desactivar el espacio de separacion por defecto */
+    background-color: #202020;
+    font-family: 'Courier New', Courier, monospace;}
+
+#wrapper {background-color: #808080;
+            width: 80%;             /*  ancho fijado al 80%     */
+            margin: auto;}          /*   centrado automaticamente  */
+
+nav {background-color: white;}
